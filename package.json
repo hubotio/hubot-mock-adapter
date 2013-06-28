@@ -1,0 +1,23 @@
+{
+  "name": "hubot-mock-adapter",
+  "version": "0.9.9",
+  "description": "A mock Adapter for unit testing Hubot scripts",
+  "keywords": [
+    "hubot",
+    "jasmine"
+  ],
+  "author": {
+    "name": "Brian Lalor",
+    "email": "blalor@bravo5.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:blalor/hubot-mock-adapter.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "hubot": ">=2.5.4",
+    "lodash": "1.3.1"
+  },
+  "license": "WTFPL"
+}
