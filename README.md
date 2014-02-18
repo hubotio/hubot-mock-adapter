@@ -91,7 +91,7 @@ tests are in `specs/`, just run `node_modules/.bin/jasmine-node --coffee specs`.
 For less typing, in your `package.json`, add a `test` script:
 
     "scripts": {
-        "test": "node_modules/.bin/jasmine-node --coffee --color spec/"
+        "test": "node_modules/.bin/jasmine-node --coffee --color specs/"
     }
 
 Then you can use `npm test` to run your tests!
