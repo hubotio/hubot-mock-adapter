@@ -20,12 +20,13 @@ Let's assume you've got a really simple script, like this:
     };
 
 You want to test this, of course.  So create a Mocha test:
-    
+
     var expect = require("chai").expect;
     var path   = require("path");
 
-    var Robot       = require("hubot/src/robot");
-    var TextMessage = require("hubot/src/message").TextMessage;
+    var Hubot       = require("hubot");
+    var Robot       = Hubot.Robot;
+    var TextMessage = Hubot.TextMessage;
 
     describe("Eddie the shipboard computer", function() {
         var robot;
@@ -57,7 +58,7 @@ You want to test this, of course.  So create a Mocha test:
                 });
 
                 adapter = robot.adapter;
-                
+
                 done();
             });
 
