@@ -9,6 +9,7 @@ I couldn't find an existing method for writing unit tests for Hubot scripts.
 After digging around under Hubot's hood, I figured out all I really needed was
 an `Adapter` implementation I could spy on.  That is what you see here.
 
+
 ## example usage
 
 Let's assume you've got a really simple script, like this:
@@ -22,6 +23,7 @@ module.exports = function(robot) {
 ```
 
 You want to test this, of course.  So create a Mocha test:
+
 
 ```js    
 var expect = require("chai").expect;
