@@ -1,6 +1,6 @@
 {
   "name": "hubot-mock-adapter",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "A mock Adapter for unit testing Hubot scripts",
   "keywords": [
     "hubot",
@@ -12,12 +12,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:blalor/hubot-mock-adapter.git"
+    "url": "https://github.com/hubotio/hubot-mock-adapter.git"
   },
   "main": "index.js",
   "dependencies": {
     "hubot": ">=2.5.4",
     "lodash": "1.3.1"
   },
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "devDependencies": {
+    "semantic-release": "^15.9.6"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "test": "node -c index.js"
+  }
 }
