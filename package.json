@@ -20,7 +20,7 @@
   },
   "license": "WTFPL",
   "devDependencies": {
-    "semantic-release": "^15.9.6"
+    "semantic-release": "^15.12.4"
   },
   "scripts": {
     "semantic-release": "semantic-release",
