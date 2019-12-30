@@ -10,6 +10,8 @@ before_install:
   - npm install -g npm@latest
 before_script:
   - npm prune
+install:
+  - npm install
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
