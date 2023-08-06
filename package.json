@@ -6,7 +6,9 @@
     "hubot",
     "mock",
     "adapter",
-    "tdd"
+    "tdd",
+    "unit",
+    "tests"
   ],
   "author": {
     "name": "Brian Lalor",
@@ -16,6 +18,9 @@
     "type": "git",
     "url": "https://github.com/hubotio/hubot-mock-adapter.git"
   },
+  "bugs": {
+    "url": "https://github.com/hubotio/hubot-mock-adapter/issues"
+  },
   "main": "index.js",
   "license": "WTFPL",
   "scripts": {
@@ -23,12 +28,18 @@
     "test": "node --test test/index.test.mjs",
     "test:mocha": "mocha --exit test/"
   },
-  "dependencies": {
-    "hubot": "^7.x.x",
-    "semantic-release": "^21.0.2"
+  "peerDependencies": {
+    "hubot": "^7.x.x"
   },
   "devDependencies": {
     "chai": "^4.3.7",
     "mocha": "^10.2.0"
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ],
+    "dryRun": false
   }
 }
