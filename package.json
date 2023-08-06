@@ -4,7 +4,9 @@
   "description": "A mock Adapter for unit testing Hubot scripts",
   "keywords": [
     "hubot",
-    "jasmine"
+    "mock",
+    "adapter",
+    "tdd"
   ],
   "author": {
     "name": "Brian Lalor",
@@ -18,10 +20,15 @@
   "license": "WTFPL",
   "scripts": {
     "semantic-release": "semantic-release",
-    "test": "node -c index.js"
+    "test": "node --test test/index.test.mjs",
+    "test:mocha": "mocha --exit test/"
   },
   "dependencies": {
-    "hubot": "^3.4.0",
+    "hubot": "^7.x.x",
     "semantic-release": "^21.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
   }
 }
