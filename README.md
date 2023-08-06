@@ -1,5 +1,7 @@
 # Mock adapter for unit-testing Hubot
 
+![Pipeline Status](https://github.com/hubotio/hubot-mock-adapter/actions/workflows/pipeline.yml/badge.svg)
+
 I've whacked together a couple of Hubot scripts, but then they started getting
 more complicated. TDD is really the ONLY way to do any kind of meaningful
 development. But even if you're not TDD'ing, you _are_ testing, right?
