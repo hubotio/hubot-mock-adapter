@@ -22,6 +22,10 @@
     "url": "https://github.com/hubotio/hubot-mock-adapter/issues"
   },
   "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "license": "WTFPL",
   "scripts": {
     "test": "node --test test/index.test.mjs"
