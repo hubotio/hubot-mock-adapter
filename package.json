@@ -24,16 +24,10 @@
   "main": "index.js",
   "license": "WTFPL",
   "scripts": {
-    "semantic-release": "semantic-release",
-    "test": "node --test test/index.test.mjs",
-    "test:mocha": "mocha --exit test/"
+    "test": "node --test test/index.test.mjs"
   },
   "peerDependencies": {
-    "hubot": "^7.x.x"
-  },
-  "devDependencies": {
-    "chai": "^4.3.7",
-    "mocha": "^10.2.0"
+    "hubot": "^9"
   },
   "release": {
     "branches": [
