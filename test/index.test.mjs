@@ -1,7 +1,6 @@
 import { describe, it, beforeEach, afterEach } from 'node:test'
 import assert from 'node:assert/strict'
-import Robot from 'hubot/src/robot.js'
-import { TextMessage } from 'hubot/src/message.js'
+import { Robot, TextMessage } from 'hubot'
 
 describe('Eddie the shipboard computer', () => {
   let robot

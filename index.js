@@ -1,7 +1,6 @@
 'use strict';
 
-const Adapter = require('hubot/es2015').Adapter;
-
+import { Adapter } from 'hubot'
 class MockAdapter extends Adapter {
   async send (envelope/* , ...strings */) {
     const strings = [].slice.call(arguments, 1);
@@ -26,5 +25,6 @@ class MockAdapter extends Adapter {
     this.emit('closed');
   }
 }
-
-module.exports.use = robot => new MockAdapter(robot);
+export default {
+  use: robot => new MockAdapter(robot)
+}

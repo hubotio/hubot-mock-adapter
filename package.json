@@ -31,7 +31,7 @@
     "test": "node --test test/index.test.mjs"
   },
   "peerDependencies": {
-    "hubot": "^9"
+    "hubot": "^14"
   },
   "release": {
     "branches": [
